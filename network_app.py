@@ -16,7 +16,7 @@ if uploaded_file is not None:
     else:
         df = pd.read_excel(uploaded_file)
 else:
-    df = pd.read_excel("/Users/jjvyas1/Downloads/network_graph/commonwealth_correlationanalysis.xlsx")
+    df = pd.read_excel("https://github.com/Jinal4502/Network_Commonwealth/edit/main/commonwealth_correlationanalysis.xlsx")
     st.info("Using default dataset: commonwealth_correlationanalysis.xlsx")
 
 # --- 2. Connect to Graphistry ---
