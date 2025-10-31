@@ -1,4 +1,4 @@
 graphistry
 matplotlib
 pandas
-openpyxl.
+openpyxl
